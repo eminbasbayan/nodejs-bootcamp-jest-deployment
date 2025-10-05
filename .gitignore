@@ -10,3 +10,7 @@ coverage/
 *.lcov
 
 .jest/
+
+dist/
+*.tsbuildinfo
+*.d.ts.map

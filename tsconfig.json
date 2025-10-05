@@ -1,0 +1,75 @@
+{
+  "compilerOptions": {
+    // 🎯 Hedef JavaScript versiyonu
+    "target": "ES2020",
+
+    // 📦 Modül sistemi
+    "module": "commonjs",
+
+    // 📚 Kullanılacak kütüphane özellikleri
+    "lib": ["ES2020"],
+
+    // 📤 Derlenmiş dosyaların çıkış klasörü
+    "outDir": "./dist",
+
+    // 📥 Kaynak dosyaların bulunduğu klasör
+    "rootDir": "./src",
+
+    // 🔒 Katı tip kontrolü (tüm katı kontroller aktif)
+    "strict": true,
+
+    // 🔄 ES modül uyumluluğu
+    "esModuleInterop": true,
+
+    // ⚡ Kütüphane kontrolünü atla (hızlandırır)
+    "skipLibCheck": true,
+
+    // 📝 Dosya isim kontrolü
+    "forceConsistentCasingInFileNames": true,
+
+    // 🗂️ JSON import desteği
+    "resolveJsonModule": true,
+
+    // 🔍 Modül çözümleme stratejisi
+    "moduleResolution": "node10",
+
+    // 📋 .d.ts declaration dosyaları oluştur
+    "declaration": true,
+
+    // 🗺️ Declaration map dosyaları oluştur
+    "declarationMap": true,
+
+    // 🐛 Source map oluştur (debugging için)
+    "sourceMap": true,
+
+    // 🗑️ Yorumları kaldır
+    "removeComments": true,
+
+    // ⚠️ Örtük any kullanımına izin verme
+    "noImplicitAny": true,
+
+    // ✅ Null kontrollerini katılaştır
+    "strictNullChecks": true,
+
+    // 🎯 Fonksiyon tiplerini katılaştır
+    "strictFunctionTypes": true,
+
+    // 📝 Kullanılmayan local değişkenleri bildir (kapalı)
+    "noUnusedLocals": false,
+
+    // 📝 Kullanılmayan parametreleri bildir (kapalı)
+    "noUnusedParameters": false,
+
+    // ↩️ Return statement olmayan fonksiyonları bildir
+    "noImplicitReturns": true,
+
+    // 🔀 Switch case fallthrough kontrolü
+    "noFallthroughCasesInSwitch": true
+  },
+
+  // ✅ Derlenecek dosyalar
+  "include": ["src/**/*"],
+
+  // ❌ Derlenmeyecek dosyalar
+  "exclude": ["node_modules", "dist", "__tests__"]
+}
